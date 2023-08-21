@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "code2img"
+version = "1.0.0"
+description = "Generate picture from code"
+authors = ["Steve De Jongh <dejongh.st@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.3.2"
+pygments = "^2.16.1"
+playwright = "^1.37.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
